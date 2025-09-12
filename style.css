@@ -1,0 +1,118 @@
+/* Exercício 1 */
+.titulo-estilizado {
+    color: darkblue;
+    font-size: 36px;
+    margin: 20px;
+  }
+ 
+  /* Exercício 2 */
+  .paragrafo-colorido {
+    background-color: lightyellow;
+    font-size: 18px;
+    color: darkgray;
+    margin: 10px;
+  }
+ 
+  /* Exercício 3 */
+  .input-estilizado {
+    width: 300px;
+    height: 40px;
+    border: 2px solid lightgray;
+    margin: 15px;
+  }
+ 
+  /* Exercício 4 */
+  .link-botao {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: 1px solid darkblue;
+    padding: 10px;
+    text-decoration: none;
+  }
+ 
+  /* Exercício 5 */
+  .caixa-com-paragrafo {
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+  }
+ 
+  /* Exercício 6 */
+  .paragrafo-com-borda {
+    border: 1px dashed gray;
+    margin: 20px;
+    font-size: 16px;
+  }
+ 
+  /* Exercício 7 */
+  .tabela-alternada {
+    width: 500px;
+    border-collapse: collapse;
+    font-size: 16px;
+    margin: 20px 0;
+  }
+ 
+  .tabela-alternada td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+ 
+  .tabela-alternada tr:nth-child(odd) {
+    background-color: white;
+  }
+ 
+  .tabela-alternada tr:nth-child(even) {
+    background-color: lightgray;
+  }
+ 
+  /* Exercício 8 */
+  .caixa-centralizada {
+    width: 300px;
+    height: 150px;
+    background-color: pink;
+    border: 2px solid red;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .titulo-centralizado {
+    font-size: 20px;
+    text-align: center;
+  }
+ 
+  /* Exercício 9 */
+  .link-verde {
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    border: 2px solid darkgreen;
+    padding: 8px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+  }
+ 
+  /* Exercício 10 */
+  .titulo-tabela-contato {
+    font-size: 24px;
+    color: darkblue;
+  }
+ 
+  .tabela-contatos {
+    width: 990px;
+    border-collapse: collapse;
+    background-color: #f5f5dc; /* Bege claro */
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+ 
+  .tabela-contatos td {
+    border: 1px solid black;
+    padding: 8px;
+  }
